@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <title>APOD NASA</title>
+</head>
+<body>
+    <header>
+        <img id = "logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/200px-NASA_logo.svg.png" alt ="">
+        <h1>APOD NASA</h1>
+    </header>
+    <main>
+        <div id = "calendarDiv">
+            <input type="date" name= "Date" id="calendar">
+            <input type="submit" value="enviar" id = "submit">
+        </div>
+        <div id = "requestBody">
+            <p id="dateChose"></p>
+            <h2 id="pictureTitle">Astronomy Picture of the Day</h2>
+            <p id="explanationp">
+                
+            </p>
+            <img id="picture" src="" alt=""">
+
+        </div>
+
+    </main>
+
+    <footer>
+        CopyRight 2020 &copy;<a href="https://github.com/thiago-tga">Thiago Araujo</a>.Todos os direitos reservados
+    </footer>
+</body>
+
+<script src="../js/model.js"></script>
+<script src="../js/view.js"></script>
+<script src="../js/controller.js"></script>
+<script src="../js/index.js"></script>
+</html>

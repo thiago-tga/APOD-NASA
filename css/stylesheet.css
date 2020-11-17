@@ -1,0 +1,70 @@
+header
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    
+
+h1
+{
+    font: revert;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2
+{
+    font: revert;
+}
+main
+{   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+
+}
+
+#dateChose
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#pictureTitle
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#explanationp
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#picture
+{
+    height: 66%;
+    width: 66%;
+    padding-left: 18%;
+    padding-right: 15%;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
